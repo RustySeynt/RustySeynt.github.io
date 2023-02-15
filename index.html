@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">My Portfolio<span>.</span></a>
+		<ul class="navigation">
+			<li><a href="#banner">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#project">Projects</a></li>
+			<li><a href="#profile">Profile</a></li>
+			<li><a href="#form">Contact</a></li>
+		</ul>
+	</header>
+	<section class="banner" id="banner">
+		<div class="content">
+			<h2>Hi! I'm Christian Gemina</h2>
+			<p>Playing <strong>Basketball</strong> can be a fun and engaging hobby that can provide great physical exercise, as well as opportunities for socializing and competition.</p>
+			<a href="#" class="btn">More Projects</a>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="row">
+			<div class="col50">
+				<h2 class="titleText"><span>A</span>bout <span>M</span>e</h2>
+				<p>Hello my name is CHRISTIAN JAN GEMINA. Also known as "Chan" or "CJ". I am 20 years old and I live in Poblacion, El Salvador City. I'm a sporty type of person rather but I love playing online games too.  I'm currently a 2nd year College in USTP and an IT Student. Hoping to create more and do more.</p>
+			</div>
+			<div class="col50">
+				<div class="imgBx">
+					<img src="img/profile.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="menu" id="project">
+		<div class="title">
+			<h2 class="titleText">My <span>P</span>roject</h2>
+		</div>
+		<div class="content">
+			<div class="box">
+				<div class="imgBx">
+					<a href="img/logo1.jpg"><img src="img/logo1.jpg"></a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<a href="img/logo2.jpg"><img src="img/logo2.jpg"></a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<a href="img/logo3.jpg"><img src="img/logo3.jpg"></a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<a href="img/logo4.jpg"><img src="img/logo4.jpg"></a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<a href="img/logo5.jpg"><img src="img/logo5.jpg"></a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<a href="img/logo6.jpg"><img src="img/logo6.jpg"></a>
+				</div>
+			</div>
+		</div>
+		<div class="title">
+			<a href="#" class="btn">View All</a>
+		</div>
+	</section>
+
+	<section class="testimonials" id="profile">
+		<div class="title white">
+			<h2 class="titleText">My <span>P</span>rofile</h2>
+		</div>
+		<div class="content">
+			<div class="box">
+				<div class="imgBx">
+					<img src="img/profile.jpg">
+				</div>
+				<div class="text">
+					<p><strong>Name:</strong> Christian Gemina</p>
+					<p><strong>Section:</strong> BSIT - IT2R2</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<form action="" method="">
+		<section class="form" id="form">
+		<div class="contactForm">
+			<h3>Contact Me</h3>
+			<div class="inputBox">
+				<input type="text" name="firstname" placeholder="First Name">
+			</div>
+			<div class="inputBox">
+				<input type="text" name="middlename" placeholder="Middle Name">
+			</div>
+			<div class="inputBox">
+				<input type="text" name="lastname" placeholder="Last Name">
+			</div>
+			<div class="inputBox">
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+			</div>
+			<div class="inputBox">
+				<input type="submit" value="Submit">
+			</div>
+		</div>
+	</section>
+	</form>
+
+	<div class="copyrightText">
+		<p>Copyright 2021 <a href="#">Christian Gemina</a>. All Right Reserved</p>
+	</div>
+
+	<script type="text/javascript">
+		window.addEventListener('scroll', function(){
+			const header = document.querySelector('header');
+			header.classList.toggle("sticky", window.scrollY > 0);
+		})
+	</script>
+</body>
+</html>
